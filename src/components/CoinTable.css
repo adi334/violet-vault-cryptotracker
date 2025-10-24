@@ -1,0 +1,59 @@
+.crypto-list-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #180C52 0%, #321D7E 100%);
+  padding: 0;
+  width: 100vw;
+}
+
+.custom-table-container {
+  margin: 36px auto 0 auto;
+  max-width: 1100px;
+  padding: 0 14px;
+}
+
+.glass-card {
+  background: rgba(108,92,211,0.13);
+  border-radius: 18px;
+  box-shadow: 0 6px 38px #8564e233, 0 1px 9px #170C5233;
+  padding: 20px 0 40px 0;
+  color: #f7f3ff;
+}
+
+.custom-table {
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+.custom-table thead {
+  background: #24105c;
+  font-size: 1.05rem;
+}
+
+.custom-table th, .custom-table td {
+  padding: 19px 12px;
+  font-size: 1.1rem;
+}
+
+.custom-table tbody tr {
+  background: rgba(138, 97, 226, 0.18);
+  border-radius: 20px;
+  transition: background 0.22s;
+}
+
+.custom-table tbody tr:hover {
+  background: rgba(190, 153, 255, 0.17);
+  cursor: pointer;
+}
+
+.positive {
+  color: #57fd89;
+  font-weight: 600;
+}
+.negative {
+  color: #ff7676;
+  font-weight: 600;
+}

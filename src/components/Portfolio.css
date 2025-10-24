@@ -1,0 +1,65 @@
+.portfolio-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #180C52 0%, #321D7E 100%);
+  width: 100vw;
+}
+
+.portfolio-container {
+  max-width: 900px;
+  margin: 48px auto 80px auto;
+  background: rgba(108,92,211,0.13);  /* Violet glass */
+  border-radius: 28px;
+  box-shadow: 0 8px 38px #8564e233, 0 1px 9px #170C5233;
+  padding: 40px 30px 50px 30px;
+  color: #f7f3ff;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+.portfolio-title {
+  font-weight: 800;
+  font-size: 2.1rem;
+  margin-bottom: 24px;
+  letter-spacing: 0.03em;
+  color: #eadcff;
+  text-align: center;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 16px;
+}
+
+.transaction-table th {
+  text-align: left;
+  padding-bottom: 12px;
+  font-weight: 700;
+  color: #bca5ff;
+}
+
+.transaction-table td {
+  background: rgba(138, 97, 226, 0.18);
+  padding: 14px 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 5px 15px rgba(74, 46, 140, 0.3);
+  color: #efeaff;
+}
+
+.transaction-buy {
+  color: #57fd89;
+  font-weight: bold;
+}
+
+.transaction-sell {
+  color: #ff8ec5;
+  font-weight: bold;
+}
+
+.transaction-date {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 0.95rem;
+  font-family: monospace;
+}

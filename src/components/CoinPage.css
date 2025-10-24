@@ -1,0 +1,110 @@
+.coinpage-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #180C52 0%, #321D7E 100%);
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 52px 0;
+}
+
+.coin-fullpage-glass {
+  background: rgba(108,92,211,0.15);
+  border-radius: 32px;
+  box-shadow: 0 12px 45px #7f5ee233, 0 1px 9px #170C5233;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 44px 36px 44px 36px;
+  color: #fff;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin-title {
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: .02em;
+  margin-bottom: 22px;
+  color: #fff;
+}
+
+/* Optional: Chart area (for extra glass look) */
+.coinpage-chart-glass {
+  background: rgba(160,144,255,0.09);
+  border-radius: 22px;
+  padding: 24px 8px;
+  margin: 0 auto 36px auto;
+  width: 100%;
+  box-shadow: 0 3px 29px #9a6ae266;
+}
+
+.coin-action-bar input {
+  background: #eee4fe;
+  color: #3b246a;
+  border-radius: 9px;
+  border: none;
+  font-size: 1.14rem;
+  padding: 12px 19px;
+  margin-right: 18px;
+  transition: border 0.15s;
+}
+
+.coin-action-btn.buy {
+  background: linear-gradient(92deg, #8bffea, #46cfff 92%);
+  color: #002844;
+  font-weight: bold;
+  border-radius: 13px;
+  padding: 12px 38px;
+  margin-right: 12px;
+  border: none;
+  transition: background 0.19s, color 0.19s;
+}
+.coin-action-btn.buy:hover {
+  background: linear-gradient(92deg, #4ed1ff, #bfc4ff 92%);
+  color: #0a080e;
+}
+
+.coin-action-btn.sell {
+  background: linear-gradient(92deg, #fc738c, #f887b7 92%);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 13px;
+  padding: 12px 38px;
+  border: none;
+  transition: background 0.19s, color 0.19s;
+}
+.coin-action-btn.sell:hover {
+  background: linear-gradient(92deg, #fca2c2, #fc738c 92%);
+  color: #751629;
+}
+.coin-notify {
+  margin: 0 auto 18px auto;
+  max-width: 340px;
+  padding: 13px 22px;
+  background: linear-gradient(96deg, #75f2c3 30%, #1cf7a7 110%);
+  color: #145b46;
+  font-weight: 700;
+  border-radius: 12px;
+  font-size: 1.07rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 14px #52e08822;
+  animation: fadein 0.45s;
+}
+.coin-notify button {
+  border: none;
+  background: transparent;
+  color: #026443;
+  font-size: 1.31em;
+  cursor: pointer;
+  font-weight: bold;
+}
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(-12px);}
+  to { opacity: 1; transform: none;}
+}
