@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# VioletVault Crypto Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to VioletVault — your elegant cryptocurrency price tracker and portfolio manager! This React.js web app lets you explore live crypto prices, track your portfolio, and visualize market trends with a consistent violet glass design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Real-time cryptocurrency price tracking with detailed coin info.
+- Secure portfolio management with historic transaction records.
+- Interactive and animated price charts for market insights.
+- Responsive and modern UI with violet glassmorphism theme.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
+- Node.js (version 14 or above)
+- npm (comes with Node.js)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository:
+git clone https://github.com/adi334/violet-vault-cryptotracker.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+text
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate into the project folder:
+cd violet-vault-cryptotracker
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+text
 
-### `npm run eject`
+3. Install dependencies:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+text
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Run the development server:
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+text
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The app will be available at `http://localhost:3000`.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To create a production build, run:
 
-### Code Splitting
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+text
 
-### Analyzing the Bundle Size
+You can then deploy the `build` directory to any static hosting provider such as GitHub Pages, Netlify, or Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome!  
+Feel free to fork the project and submit pull requests.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+Created by Adi334 — [GitHub Profile](https://github.com/adi334)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and free to use.
